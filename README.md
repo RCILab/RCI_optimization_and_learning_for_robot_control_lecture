@@ -6,7 +6,7 @@ Optimization and Learning for Robot Control Lecture with Slides, Codes and Youtu
 This repository provides Korean-language lecture videos based on the optimization and learning curriculum. 
 This course covers fundamental inverse kinematics and dynamics control, optimization based control and learning based control for robotics engineering.
 
-* **Youtube Playlist**: https://youtube.com/playlist?list=PLjHPb6Q6WLfJDkB0UqdrqOmay7amKy8KV&si=s8XS3mzAFhC8f3TR
+* **Youtube Playlist**: https://www.youtube.com/playlist?list=PLjHPb6Q6WLfJdX5vqrljsbdVw6JXkZmcV
 
 ---
 
