@@ -57,6 +57,35 @@ Inside the attached VS Code terminal (Ctrl + `), run:
 * Saving Work: Since we used the '--rm' flag, the container is deleted when stopped. Make sure to backup your code!
 * Stopping: To shut down the environment, run 'docker stop orc_lab' in your local terminal.
 
+## 🪟 Installing Julia 1.10 LTS on Windows
+
+You should install Julia locally for Jupyter Notebook
+
+### 1. Prerequisites
+
+Before we begin, please ensure you have the following installed:
+
+* Visit: https://julialang.org/downloads/
+* Download Julia 1.10.x (LTS) – Windows 64-bit installer (**Not 1.12 version!**)
+* Run the installer and make sure to check:
+
+### 2. Check the Lab Environment
+
+After installation, verify in PowerShell or CMD:
+
+> julia –version
+
+Expected output:
+
+> julia version 1.10.x
+
+### 💡 Tips for Students
+* If Anaconda Is Already Installed, Open Julia REPL and install IJulia:
+> using Pkg
+> Pkg.add(“IJulia”)
+> using IJulia
+> IJulia.installkernel(“Julia 1.10”)
+
 
 ## Contact
 Maintainer: [Sanghyun Kim] (kim87@khu.ac.kr)  
